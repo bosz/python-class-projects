@@ -5,9 +5,10 @@ port scanner and ssh bruteforce
 # Prerequisite
 python 
 	v 2.7
-term color 
-	 sudo apt-get install  python-termcolor
-
+term color
+``` shell
+sudo apt-get install  python-termcolor
+```
 # Execution
 ### port scanner
 	python simpleportscanner.py ip-address
