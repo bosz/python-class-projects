@@ -1,4 +1,3 @@
-Sample Readme
 # Project Title
 port scanner and ssh bruteforce
 
