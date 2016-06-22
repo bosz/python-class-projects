@@ -1,0 +1,9 @@
+user:pass
+admin:password
+guest:password1
+tonie:test
+admin:admin
+root:root
+tester:you
+tester:hard_password
+tester:Hard_Password
