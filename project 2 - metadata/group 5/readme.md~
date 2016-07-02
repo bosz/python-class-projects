@@ -9,7 +9,7 @@ Terminal
 Ubuntu
 
 # Brief Description
-Python scripts to extract metadata from a pdf file and an image(jpg) file.
+Python scripts to extract metadata from a pdf file and an image file.
 Usage 
 cd to project folder
     
