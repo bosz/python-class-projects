@@ -1,4 +1,3 @@
-Sample Readme
 # Multithreaded web crawler using BeautifulSoup
 
 ### Requirements
