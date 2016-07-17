@@ -4,15 +4,16 @@ from threading import Thread
 def crackZipfile(zFile,word):
    try:              
       zFile.extractall(pwd=word)
-      print '[+] Found password: ' + word
+      print "[+] Password : [" + word + "] Found "
       print '[+] File extracted'
       global found
       found=True
       t.exit()
    except:
-      #print "Still searching password ......"
+      print "\n[-] Password : [" + word + "] does not match"
       pass
 def main():
+   global found
    found=False
    parser = optparse.OptionParser("usage%prog "+ "-f <zipfile> -d <dictionary>")
    parser.add_option('-f', dest='zname', type='string', help='specify zip file')
@@ -32,5 +33,8 @@ def main():
       	break
       t = Thread(target=crackZipfile, args=(zFile,word))
       t.start()
+   t.join()
+   if found == False:
+      print "Password not found"
 if __name__ == '__main__':
    main()
