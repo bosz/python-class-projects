@@ -13,7 +13,7 @@ def get_metadata(pdf):
 
 parser = optparse.OptionParser()
 
-parser.add_option('-f', dest='filePath', type='string',help='Please Specify the image fileName')
+parser.add_option('-f', dest='filePath', type='string',help='Please Specify the pdf fileName')
 
 option = parser.parse_args()[0]
 
